@@ -1,8 +1,8 @@
 # Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
- AIM:
+### AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
-Equipments Required:
+## Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
 Theory
@@ -51,7 +51,7 @@ The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will gi
 
 Y= A⊕B
 
-Procedure
+## Procedure
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
@@ -76,7 +76,7 @@ xnor(y7,a,b);
 endmodule
 ```
 */
-Logic symbol:
+## Logic symbol:
 ![digital electronics](https://user-images.githubusercontent.com/119404951/227722356-3307f8c0-83f5-46b5-89f0-d0eafa910cbc.png)
 
 Truth table:
@@ -84,14 +84,14 @@ Truth table:
 
 
 
-RTL realization:
+## RTL realization:
 ![digital rtl](https://user-images.githubusercontent.com/119404951/227722611-b4bc67ec-3fea-4f53-9e77-1788b09215bb.png)
 
 
 
-Output(Waveform):
+## Output(Waveform):
 ![output rtl](https://user-images.githubusercontent.com/119404951/227722734-aefc3ca3-0c01-4a56-8ee5-e5bf34df5fcc.png)
 
 
-Result:
+## Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
